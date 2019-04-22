@@ -58,59 +58,7 @@
         display: none !important;
     }
 }
-.slideRight {
-    animation-name: slideRight;
-    -webkit-animation-name: slideRight;
 
-    animation-duration: 0.5s;
-    -webkit-animation-duration: 0.5s;
-
-    animation-timing-function: ease-in;
-    -webkit-animation-timing-function: ease-in;
-}
-.slideLeft {
-    animation-name: slideLeft;
-    -webkit-animation-name: slideLeft;
-
-    animation-duration: 0.5s;
-    -webkit-animation-duration: 0.5s;
-
-    animation-timing-function: ease-in;
-    -webkit-animation-timing-function: ease-in;
-}
-
-@keyframes slideRight {
-    0% {
-    opacity: 1;
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-    }
-
-    100% {
-    opacity: 1;
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
-    }
-}
-@keyframes slideLeft {
-    0% {
-    opacity: 1;
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
-    }
-
-    100% {
-    opacity: 1;
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-    }
-}
-.afterRightSlide{
-    transform: translateX(-100%);
-}
-.afterLeftSlide{
-    transform: none;
-}
 .disabledBtn{
     background-color: rgba(56, 152, 236, 0.5) !important;
 }
@@ -124,4 +72,59 @@
     .footerinfotablecontainer{
         padding-top: 3% !important;
     }
+}
+.homeleadcapture{
+    transform: translateX(0%) !important;
+  transition: transform 1s ease-in-out;
+}
+.homeleadcapture1{
+    transform: translateX(-100%) !important;
+  transition: transform 1s ease-in-out;
+}
+.homeleadcapture2{
+    transform: translateX(-200%) !important;
+  transition: transform 1s ease-in-out;
+}
+.homeleadcapture3{
+    transform: translateX(-300%) !important;
+  transition: transform 1s ease-in-out;
+}
+.schedulepage{
+    transform: translateX(0%) !important;
+  transition: transform 1s ease-in-out;
+}
+.schedulepage1{
+    transform: translateX(-100%) !important;
+  transition: transform 1s ease-in-out;
+}
+.schedulepage2{
+    transform: translateX(-200%) !important;
+  transition: transform 1s ease-in-out;
+}
+.schedulepage3{
+    transform: translateX(-300%) !important;
+  transition: transform 1s ease-in-out;
+}
+.personalinfopage{
+    transform: translateX(0%) !important;
+  transition: transform 1s ease-in-out;
+}
+.personalinfopage1{
+    transform: translateX(-100%) !important;
+  transition: transform 1s ease-in-out;
+}
+.personalinfopage2{
+    transform: translateX(-200%) !important;
+  transition: transform 1s ease-in-out;
+}
+.personalinfopage3{
+    transform: translateX(-300%) !important;
+  transition: transform 1s ease-in-out;
+}
+.requestpage{
+    transform: translateX(0%) !important;
+  transition: transform 1s ease-in-out;
+}
+.requestpage1{
+    transform: translateX(-100%) !important;
 }
