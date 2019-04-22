@@ -1,5 +1,6 @@
 function historyBackAnimation(){
     if($('.requestpage').hasClass('requestpage1')==true){
+        $('.homeleadcapture').show();
         $('.homeleadcapture').toggleClass('homeleadcapture1');
         $('.requestpage').toggleClass('requestpage1');
     }
@@ -14,6 +15,7 @@ function historyBackAnimation(){
         $('.personalinfopage').removeClass('personalinfopage2');
     }
     else if($('.homeleadcapture').hasClass('homeleadcapture1')==true){
+        $('.homeleadcapture').show();
         $('.homeleadcapture').removeClass('homeleadcapture1');
         $('.schedulepage').removeClass('schedulepage1');
         $('.personalinfopage').removeClass('personalinfopage1');
