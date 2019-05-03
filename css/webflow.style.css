@@ -74,7 +74,7 @@
     }
 }
 .homeleadcapture{
-    transform: translateX(0%) !important;
+    transform: translateX(0%);
   transition: transform 1s ease-in-out;
 }
 .homeleadcapture1{
